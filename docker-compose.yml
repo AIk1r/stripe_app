@@ -6,5 +6,4 @@ services:
       - .:/app
     ports:
       - "8000:8000"
-    # Указание сетевого режима bridge (вместо network_mode: "host")
     network_mode: bridge
